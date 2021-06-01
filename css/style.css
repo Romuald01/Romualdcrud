@@ -1,0 +1,107 @@
+.d-flex button{
+    margin:1.5em 0.5em;
+    padding:0.3em 1.4em;
+}
+
+.d-flex table{  
+    margin:1em 10em;   
+}
+
+table .btnedit{
+color:lightsalmon; 
+cursor:pointer;
+ 
+}
+.success{
+    background-color: lightgreen;
+    padding:1em;
+    border: 1px solid green;
+}
+
+.error{
+    background-color:tomato;
+    padding:1em;
+}
+
+.buttons{
+    /* border: 1px solid green; */
+}
+
+/*================================= media query start here================================= */
+@media screen and (max-width:767px) {
+    form{
+    width: 100%;
+    /* border: 1px solid green; */
+}
+
+.small-input{
+    display: block;
+}
+.d-flex .buttons{
+    position: absolute;
+right: 32%;
+margin-top:30px;
+margin-bottom:30px;
+
+}
+button{
+    padding: 3px 5px;
+}
+.d-flex button{
+    padding:0.3em 0.4em;
+}
+.deleteall{
+    font-size: 14px;
+}
+.table-data{
+    margin-left:-18%;
+    margin-top: 23%;
+}
+}
+@media screen and (max-width:600px) {
+.d-flex .buttons{
+    right: 26%;
+    margin-top:20px;
+}
+.deleteall{
+    font-size: 13px;
+}
+}
+
+@media screen and (max-width:425px){
+    .form-control{
+        width: 100% ;
+    }
+.d-flex .buttons{
+    right: 15%;
+    margin-top:20px;
+}
+.table-data{
+margin-left: -36%;
+margin-top: 30%;
+}
+}
+
+@media screen and (max-width:375px){
+    .book-store-box{
+       margin-right:1%;
+    }
+    .d-flex .buttons{
+        right: 12%;
+    }
+    .table-data{
+        margin-left: -49%;
+    }
+}
+@media screen and (max-width:320px){
+    .book-store-box{
+        margin-right:-17%;
+     }
+     .d-flex .buttons{
+         right: -7%;
+     }
+     .table-data{
+         margin-left: -58%;
+         margin-top: 35%;
+     }
+}
